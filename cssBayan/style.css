@@ -1,0 +1,65 @@
+body {
+    background-color: beige;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+    color: blue;
+}
+
+.box {
+    border-top: gray solid 1px;
+}
+
+#txt1 {
+    color:black;
+}
+
+.txt {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#icon1 {
+    transform: rotateZ(45deg);    
+}
+
+img {
+    height: 320px;
+    width: 320px;   
+}
+
+.icon {
+    float: right;
+    height: 10px;
+    width: 10px;
+    display: none;
+}
+
+.image {
+    text-align: center;
+    display: none;
+}
+
+#img1 {
+    display: block;
+}
+
+.content:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.content:hover .icon {
+    display: block;
+}
+
+.box:hover .icon {
+    transform: rotateZ(45deg);
+}
+
+.box:hover .image {
+    display: block;
+}
